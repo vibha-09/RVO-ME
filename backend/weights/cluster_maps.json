@@ -1,0 +1,119 @@
+{
+  "overall": {
+    "k": 3,
+    "features": [
+      "irf_area",
+      "srf_area",
+      "elm_integrity",
+      "ez_integrity",
+      "hf_density"
+    ],
+    "remap": {
+      "2": 0,
+      "0": 1,
+      "1": 2
+    },
+    "centroids": {
+      "0": {
+        "irf_area": 0.055169485626582374,
+        "srf_area": 0.02365124001378546,
+        "elm_integrity": 0.0,
+        "ez_integrity": 0.22474248059925866,
+        "hf_density": 0.0347030864329384
+      },
+      "1": {
+        "irf_area": 0.025708969790288697,
+        "srf_area": 0.019824937199761042,
+        "elm_integrity": 0.2575213957844881,
+        "ez_integrity": 0.5028430409470604,
+        "hf_density": 0.08727567251973387
+      },
+      "2": {
+        "irf_area": 0.029782015165988027,
+        "srf_area": 1.4558135646675712e-06,
+        "elm_integrity": 0.2540962347203031,
+        "ez_integrity": 0.5215111535102573,
+        "hf_density": 0.04473966303038969
+      }
+    }
+  },
+  "fluid": {
+    "k": 4,
+    "features": [
+      "srf_area",
+      "irf_area"
+    ],
+    "remap": {
+      "2": 0,
+      "1": 1,
+      "0": 2,
+      "3": 3
+    },
+    "centroids": {
+      "0": {
+        "srf_area": 1.310232208200814e-06,
+        "irf_area": 0.034569545066509444
+      },
+      "1": {
+        "srf_area": 0.0034110722226166177,
+        "irf_area": 0.03931022085433869
+      },
+      "2": {
+        "srf_area": 0.02454897811825518,
+        "irf_area": 0.02263771152606177
+      },
+      "3": {
+        "srf_area": 0.12872242741356313,
+        "irf_area": 0.028625121832358675
+      }
+    }
+  },
+  "prognosis": {
+    "k": 3,
+    "features": [
+      "elm_integrity",
+      "ez_integrity"
+    ],
+    "remap": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "centroids": {
+      "0": {
+        "elm_integrity": 0.0,
+        "ez_integrity": 0.23125511899099155
+      },
+      "1": {
+        "elm_integrity": 0.11005632579797843,
+        "ez_integrity": 0.44184204797542154
+      },
+      "2": {
+        "elm_integrity": 0.5025443333818107,
+        "ez_integrity": 0.6658485108539292
+      }
+    }
+  },
+  "inflammation": {
+    "k": 3,
+    "features": [
+      "hf_density"
+    ],
+    "remap": {
+      "0": 0,
+      "2": 1,
+      "1": 2
+    },
+    "centroids": {
+      "0": {
+        "hf_density": 0.017398853278996897
+      },
+      "1": {
+        "hf_density": 0.058104349069699114
+      },
+      "2": {
+        "hf_density": 0.17514247487094103
+      }
+    }
+  }
+}

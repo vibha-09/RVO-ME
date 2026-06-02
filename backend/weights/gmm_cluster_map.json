@@ -1,0 +1,48 @@
+{
+  "remap": {
+    "0": 0,
+    "1": 1,
+    "2": 2
+  },
+  "centroids": {
+    "0": {
+      "irf_area": 0.03562556265166215,
+      "srf_area": 0.049149660737167915,
+      "elm_integrity": 0.10579118731373806,
+      "ez_integrity": 0.2526538867236741,
+      "hf_density": 0.14007406499259575,
+      "fluid_total": 0.08477522338883008,
+      "structure_score": 0.1792225370187061
+    },
+    "1": {
+      "irf_area": 0.035054961336349756,
+      "srf_area": 1.3324395337635397e-06,
+      "elm_integrity": 0.233047713490661,
+      "ez_integrity": 0.4973102132534163,
+      "hf_density": 0.046786846550816705,
+      "fluid_total": 0.03505629377588351,
+      "structure_score": 0.3651789633720386
+    },
+    "2": {
+      "irf_area": 0.02500938744413043,
+      "srf_area": 0.011576772099450773,
+      "elm_integrity": 0.2506448047923113,
+      "ez_integrity": 0.5306021035951185,
+      "hf_density": 0.04710889618593262,
+      "fluid_total": 0.0365861595435812,
+      "structure_score": 0.3906234541937149
+    }
+  },
+  "hf_max": 50.0,
+  "n_train_patients": 117,
+  "n_test_patients": 30,
+  "feature_names": [
+    "irf_area",
+    "srf_area",
+    "elm_integrity",
+    "ez_integrity",
+    "hf_density",
+    "fluid_total",
+    "structure_score"
+  ]
+}

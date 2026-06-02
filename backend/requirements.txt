@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-multipart
+torch
+torchvision
+opencv-python-headless
+numpy
+pillow
+scikit-learn
+albumentations
+# phenotyping pipeline
+xgboost>=2.0
+shap>=0.45
+pandas
+matplotlib
+seaborn
