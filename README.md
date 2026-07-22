@@ -7,6 +7,9 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688)
 ![React](https://img.shields.io/badge/React-19-61DAFB)
 ![License](https://img.shields.io/badge/License-Academic%20Research-lightgrey)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?logo=vercel)](https://major-project-macular-ai.vercel.app)
+
+**🌐 [Live Demo](https://major-project-macular-ai.vercel.app)**
 
 ---
 
